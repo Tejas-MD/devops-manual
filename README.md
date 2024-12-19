@@ -75,3 +75,10 @@ Prog 5 :
 
 Objective : Web App container run 
 
+`sudo docker pull docker/getting-started`
+
+`sudo docker run -d -p 80:80 docker/getting-started`
+
+Spin up shell 
+
+`sudo docker run -it 80:80 docker/getting-started sh`
