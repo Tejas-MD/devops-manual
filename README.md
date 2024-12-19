@@ -82,3 +82,8 @@ Objective : Web App container run
 Spin up shell 
 
 `sudo docker run -it 80:80 docker/getting-started sh`
+
+Alternatively, to make changes : mount locally : 
+
+docker run -it -p 3000:3000 -v $(pwd):/usr/src/app docker/getting-started
+> mounts in directory pwd/usr/src/app 
